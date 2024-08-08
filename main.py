@@ -1,21 +1,6 @@
 from typing import Any
 
 
-# все методы должны быть не сложнее O(1)
-# class Stack:
-#     def __init__(self):
-#         pass
-#
-#     def insert(self, elem):
-#         pass
-#
-#     def pop(self):
-#         pass
-#
-#     def max(self):
-#         pass
-
-
 class Stack:
     storage: list
     maximums: list[tuple[int, Any]]
