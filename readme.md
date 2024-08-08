@@ -17,3 +17,9 @@ class Stack:
     def max(self):
         pass
 ```
+
+#### Запуск тестов
+```shell
+pip install -r requirements.txt
+python -m unittest
+```
