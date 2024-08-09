@@ -10,8 +10,8 @@ class Stack:
         self.maximums = []
 
     def insert(self, elem):
+        ind = len(self.storage)
         self.storage.append(elem)
-        ind = len(self.storage) - 1
         if not self.maximums:
             self.maximums = [(ind, elem)]
         elif self.maximums[-1][1] < elem:
